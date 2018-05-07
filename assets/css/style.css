@@ -1,0 +1,140 @@
+.separador__seccion {
+	padding: 1em 0;
+	background-color: #fff;
+}
+/*estilos navbar*/
+.navbar__background {
+	border-top: 5px solid #126340;
+	margin: 0;
+	position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.navbar__starbucks-header {
+	padding: 1em 0;
+}
+.navbar__starbucks-header-logotipo {
+    padding: 0.1em 0;
+}
+.navbar__starbucks-header-logotipo img{
+	width: 2.5em;
+}
+.navbar__starbucks-header-menu {
+	padding: 1em 0 0 0;
+}
+.navbar__starbucks-header-menu a{
+	text-transform: uppercase;
+}
+
+/*estilos header*/
+.header__starbucks {
+	max-width: 100%;
+	width: 100%;
+	background-image: url(../images/banner1.jpg);
+	height: auto;
+}
+.header__starbucks-textos {
+	background-color: rgba(0,0,0,0.8);
+	padding: 6em 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	border-radius: 30px;
+	text-align: center;
+}
+.header__starbucks-textos h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 2.5em;
+}
+.header__starbucks-textos p {
+	color: #e8d0c0;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: lighter;
+	margin-bottom: 2em;
+
+}
+.header__starbucks-textos-ico {
+	text-align: center;
+}
+.fas.fa-star, .fas.fa-thumbs-up, .fas.fa-heart {
+	color: #e8d0c0;
+	text-align: center;
+	font-size: 2em;
+}
+a.header__starbucks-textos-boton {
+	border-radius: 30px;
+	border: 1px solid #e8d0c0;
+	width: 300px;
+	color: #e8d0c0;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 2em;
+}
+
+/*estilos Bebida gratis*/
+.seccion__starbucks-gratis {
+	max-width: 100%;
+	width: 100%;
+	background-image: url(../images/stars2.png);
+	height: auto;
+}
+/*estilos Sabores Familiares*/
+.seccion__starbucks-sabores {
+	max-width: 100%;
+	width: 100%;
+	background-image: url(../images/beans.png);
+	height: auto;
+}
+/*footer*/
+.footer__starbucks-ico {
+	text-align: center;
+	padding: 3em 0;
+}
+.footer__starbucks-ico a i {
+	color: #333;
+	font-size: 2em;
+
+}
+.padding-left {
+	padding-left: 1em;
+}
+.footer__starbucks{
+	background-color: #f7f7f7;
+	}	
+.footer__starbucks-info{
+	text-align: center;
+
+}
+.footer__starbucks-info img {
+	width: 4em;
+	margin-bottom: 3em;
+}
+.footer__starbucks-info p {
+	color: #333;
+	font-size: 0.8em;
+}
+.linea-negra {
+	background-color: #333;
+	padding: 0.5em 0;
+	margin-bottom: 0.5em;
+}
+@media (max-width: 480px){
+/*	.header__starbucks-textos {
+	    margin-bottom: 2em;
+	    padding: 2em 0;
+		}*/
+	.separador__seccion {
+		padding: 0;
+		background-color: #fff;
+		}
+	.header__starbucks-textos h1 {
+		font-size: 1.4em;
+		}
+	.separador__seccion {
+		display: none;
+	}
+}
