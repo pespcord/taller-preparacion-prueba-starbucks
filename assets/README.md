@@ -2,5 +2,5 @@
 
 # Repaso pre-prueba HTML & CSS:
 
-Url Github pages:
+Url Github pages: https://pespcord.github.io/taller-preparacion-prueba-starbucks/assets/
 
