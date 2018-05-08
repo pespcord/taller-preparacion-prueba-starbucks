@@ -33,7 +33,7 @@ body {
 
 /*estilos header*/
 .header__starbucks {
-	background-image: url(../images/banner1.jpg);
+	background-image: url('../images/banner1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 6em;
@@ -85,7 +85,7 @@ a.header__starbucks-textos-boton {
 
 /*estilos Bebida gratis*/
 .seccion__starbucks-gratis {
-	background-image: url(../images/stars2.png);
+	background-image: url('../images/stars2.png');
 	height: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -93,7 +93,7 @@ a.header__starbucks-textos-boton {
 }
 /*estilos Sabores Familiares*/
 .seccion__starbucks-sabores {
-	background-image: url(../images/beans.png);
+	background-image: url('../images/beans.png');
 	height: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
